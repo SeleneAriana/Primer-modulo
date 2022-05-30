@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-inline-start: 15%;
+    margin-inline-end: 20%;
+    margin-top: 5%;
+}
+
+nav{
+    padding: 10%;
+}
+a.activo{
+    color: black;
+    margin: 3px;
+}
+a.desactivado{
+    margin: 3px;
+    color: rgb(45, 104, 192);
+}
+
+.banner{
+    background-image: url(../img/Logo-Mighty-ducks-01.png);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.subtitulo{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+.Aa{
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 4%;
+
+}
+
+.reglas{
+    margin-left: 18%;
+    margin-right: 15%;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+}
+
+span{
+    font-weight: bold;
+}
+
+.sangria{
+    text-indent: 2em;
+    text-align: left;
+}
+
+blockquote{
+    padding-left: 3%;
+}
+
+input{
+    display: none;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+
+footer{
+    display: flex;
+    justify-content: last baseline;
+    justify-content: center;
+}

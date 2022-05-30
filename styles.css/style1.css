@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 15%;
+    margin-inline-end: 20%;
+    margin-top: 1%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -15px;
+
+}
+.activo{
+    background-color: rgb(52, 194, 52);
+    color: white;
+    border: solid black 2px;
+    padding: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.desactivado{
+    background-color: blue;
+    border: solid black 2px;
+    color: white;
+    padding: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.banner{
+    background-image: url(../img/design1_image1.jpg);
+    background-position: 20%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid black 5px;
+    z-index: -100;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.subtitulo{
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    margin-inline-start: -35%;
+    margin-inline-end: 5%;
+}
+
+.logo{
+    background-image: url(../img/Logo-Mighty-ducks-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+.Aa{
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 4%;
+
+}
+
+input{
+    display: none;
+}
+
+.img{
+    display: none;
+}
+
+footer{
+    display: flex;
+    justify-content: last baseline;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+span{
+    font-weight: bold;
+}
